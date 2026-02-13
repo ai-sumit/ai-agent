@@ -4,7 +4,7 @@
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-Guruji is a spiritual AI chatbot powered by **DeepSeek API** with a secure Node.js backend. No CORS issues, no API key exposure — enterprise-grade security.
+Guruji is a spiritual AI chatbot powered by **** with a secure Node.js backend. No CORS issues, no API key exposure — enterprise-grade security.
 
 ## ✨ Features
 
@@ -29,4 +29,5 @@ Guruji is a spiritual AI chatbot powered by **DeepSeek API** with a secure Node.
 ```bash
 git clone https://github.com/yourusername/guruji-deepseek.git
 cd guruji-deepseek
+
 npm install
