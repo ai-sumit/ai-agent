@@ -8,7 +8,7 @@ Guruji is a spiritual AI chatbot powered by **** with a secure Node.js backend. 
 
 ## ✨ Features
 
-- 🔒 **Server-side  API integration** — No client-side key exposure
+-
 - 🚀 **Express.js backend** with rate limiting & security headers
 - 🎨 **Beautiful glassmorphic UI** with Lottie animations
 - 📱 **Fully responsive** — works on desktop, tablet, mobile
@@ -31,5 +31,6 @@ git clone https://github.com/yourusername/guruji-.git
 cd guruji-
 
 npm install
+
 
 
