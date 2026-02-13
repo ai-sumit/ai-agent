@@ -20,15 +20,16 @@ Guruji is a spiritual AI chatbot powered by **** with a secure Node.js backend. 
 ## 📋 Prerequisites
 
 - Node.js 18+ 
-- DeepSeek API key (get it from [platform.deepseek.com](https://platform.deepseek.com))
+- DeepSeek API key (get it from [platform.com](https://platform.com))
 
 ## 🚀 Quick Start
 
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/guruji-deepseek.git
-cd guruji-deepseek
+git clone https://github.com/yourusername/guruji-.git
+cd guruji-
 
 npm install
+
 
