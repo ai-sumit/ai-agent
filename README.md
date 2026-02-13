@@ -1,4 +1,4 @@
-# 🕉️ गुरुजी · DeepSeek Wisdom Chatbot
+# 🕉️ गुरुजी · DeepSeek Wisdom Chatbot.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/XXXXX)
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -31,6 +31,7 @@ git clone https://github.com/yourusername/guruji-.git
 cd guruji-
 
 npm install
+
 
 
 
