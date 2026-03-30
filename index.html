@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Notice Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        /* The List/Table Structure */
+        .notice-row {
+            display: grid;
+            grid-template-columns: 1fr 180px 140px; /* Text | Date | Button */
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+            gap: 15px;
+        }
+
+        /* Alternating row colors for better readability */
+        .notice-row:nth-child(even) {
+            background-color: #fcfcfc;
+        }
+
+        .notice-row:hover {
+            background-color: #f1f5f9;
+        }
+
+        /* Notice Content */
+        .notice-text {
+            font-size: 14px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        /* Date and Time Column */
+        .notice-date {
+            font-size: 13px;
+            color: #666;
+            text-align: left;
+        }
+
+        /* The "View Document" Blue Button */
+        .view-btn {
+            background-color: #4a90e2;
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            text-align: center;
+            transition: background 0.2s;
+            display: inline-block;
+        }
+
+        .view-btn:hover {
+            background-color: #357abd;
+        }
+
+        /* Header Style */
+        .board-header {
+            background: #fff;
+            padding: 15px 20px;
+            font-weight: bold;
+            border-bottom: 2px solid #ddd;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="board-header">Latest Circulars & Notices</div>
+
+    <div class="notice-row">
+        <div class="notice-text">
+            OM 676- Time-Table of B.Tech. & M.Tech. Even Sem Exam 2025-26
+        </div>
+        <div class="notice-date">
+            25 Mar 2026<br>10:10:55 AM
+        </div>
+        <div>
+            <a href="#" class="view-btn">View Document</a>
+        </div>
+    </div>
+
+    <div class="notice-row">
+        <div class="notice-text">
+            OM 495 Regarding Course Selection and Exam Form Registration for UG VIII, VI, IV, II Even Semesters Session 2025-26
+        </div>
+        <div class="notice-date">
+            05 Jan 2026<br>17:00:49 PM
+        </div>
+        <div>
+            <a href="#" class="view-btn">View Document</a>
+        </div>
+    </div>
+
+    <div class="notice-row">
+        <div class="notice-text">
+            Revised Office memorandum for course selection will be start from 9th February 2026 instead of 04th February 2026
+        </div>
+        <div class="notice-date">
+            03 Feb 2026<br>19:35:40 PM
+        </div>
+        <div>
+            <a href="#" class="view-btn">View Document</a>
+        </div>
+    </div>
+
+    <div class="notice-row">
+        <div class="notice-text">
+            OM 280 Regarding Course Selection and Exam Form Registration for UG I & PG I Semester, Main/ATKT Examination 2025-26
+        </div>
+        <div class="notice-date">
+            25 Oct 2025<br>12:50:42 PM
+        </div>
+        <div>
+            <a href="#" class="view-btn">View Document</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
